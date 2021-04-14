@@ -58,7 +58,7 @@ plot(mergedGrains.boundary,'linecolor','k','linewidth',2.5,'linestyle','-',...
 hold off
 
 %% Grain relationships
-% The second output argument |paraentId| of <grain2d.merge.html merge> is a
+% The second output argument |parentId| of <grain2d.merge.html merge> is a
 % list with the same size as the child grains which indicates for each
 % child grain into which parent grain it has been merged. The id of the
 % common grain is usually different from the ids of the merged grains and
